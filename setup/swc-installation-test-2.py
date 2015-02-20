@@ -70,11 +70,11 @@ CHECKS = [
     'virtual-browser',
 # Version control
     'git',
-    'hg',              # Command line tool
+    #'hg',              # Command line tool
     #'mercurial',       # Python package
-    'EasyMercurial',
+    #'EasyMercurial',
 # Build tools and packaging
-    'make',
+    #'make',
     'virtual-pypi-installer',
     'setuptools',
     #'xcode',
@@ -98,7 +98,7 @@ CHECKS = [
     'sympy',
     'Cython',
     'networkx',
-    'mayavi.mlab',
+    #'mayavi.mlab',
     ]
 
 CHECKER = {}
