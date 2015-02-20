@@ -1,20 +1,18 @@
 ---
 layout: workshop
 root: .
-venue: FIXME (brief name of host site)
-address: FIXME (street address of home location)
+venue: B07,
+address: 1-19 Torrington Place
 country: FIXME (country (hyphenated if need be, like 'United-Kingdom')
-language: FIXME (language code like 'en' or 'fr')
-latlng: (fractional latitude and longitude like 41.7901128,-87.6007318)
-humandate: FIXME (use the format 'Feb 17-18, 2020' (without the quotes)
-humantime: FIXME (use the format '9:00 am - 4:30 pm' (without the quotes)
-startdate: FIXME (use YYYY-MM-DD format like 2015-01-01)
-enddate: FIXME (use YYYY-MM-DD format like 2015-01-02)
-instructor: (list of names like ["Kay McNulty", "Betty Jennings", "Betty Snyder"])
+language: en
+latlng: 51.5218691,-0.134323
+humandate: Feb 25-26, 2015
+humantime: 10:00 am - 5:00 pm
+startdate: 2015-02-25
+enddate: 2015-02-26
+instructor: James Hetherington, Mayeul D’Avezac, Jens Nielsen and Ben Waugh
 helper: (list of names like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"])
-contact: FIXME (contact email address for workshop organizer)
-etherpad: # FIXME (insert the URL for your Etherpad if you're using one)
-eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 1234567890AB key for Eventbrite registration)
+contact: rc-softdev@ucl.ac.uk
 ---
 <!--
   HEADER
@@ -201,15 +199,17 @@ eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 12
 
 <div class="row">
   <div class="col-md-6">
-    <h3>The Unix Shell</h3>
+    <h3>Version Control with Git</h3>
     <ul>
-      <li>Files and directories</li>
-      <li>History and tab completion</li>
-      <li>Pipes and redirection</li>
-      <li>Looping over files</li>
-      <li>Creating and running shell scripts</li>
-      <li>Finding things</li>
-      <li><a href="{{site.swc_lessons}}/ref/01-shell.html">Reference...</a></li>
+      <li>Creating a repository</li>
+      <li>Recording changes to files: <code>add</code>, <code>commit</code>, ...</li>
+      <li>Viewing changes: <code>status</code>, <code>diff</code>, ...</li>
+      <li>Ignoring files</li>
+      <li>Working on the web: <code>clone</code>, <code>pull</code>, <code>push</code>, ...</li>
+      <li>Resolving conflicts</li>
+      <li>Open licenses</li>
+      <li>Where to host work, and why</li>
+      <li><a href="{{site.swc_lessons}}/ref/02-git.html">Reference...</a></li>
     </ul>
   </div>
   <div class="col-md-6">
@@ -242,18 +242,7 @@ eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 12
 
 <div class="row">
   <div class="col-md-6">
-    <h3>Version Control with Git</h3>
-    <ul>
-      <li>Creating a repository</li>
-      <li>Recording changes to files: <code>add</code>, <code>commit</code>, ...</li>
-      <li>Viewing changes: <code>status</code>, <code>diff</code>, ...</li>
-      <li>Ignoring files</li>
-      <li>Working on the web: <code>clone</code>, <code>pull</code>, <code>push</code>, ...</li>
-      <li>Resolving conflicts</li>
-      <li>Open licenses</li>
-      <li>Where to host work, and why</li>
-      <li><a href="{{site.swc_lessons}}/ref/02-git.html">Reference...</a></li>
-    </ul>
+    <h3>Unit Testing</h3>
   </div>
   <div class="col-md-6">
     <h3>Managing Data with SQL</h3>
@@ -526,51 +515,6 @@ eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 12
     </div>
   </div>
 </div> <!-- End of 'Python' section. -->
-
-<div> <!-- Start of 'R' section. -->
-  <h3>R</h3>
-
-  <p>
-    <a href="http://www.r-project.org">R</a> is a programming language
-    that is especially powerful for data exploration, visualization, and
-    statistical analysis. To interact with R, we use
-    <a href="http://www.rstudio.com/">RStudio</a>.
-  </p>
-
-  <div class="row">
-    <div class="col-md-4">
-      <h4>Windows</h4>
-      <p>
-	Install R by downloading and running
-	<a href="http://cran.r-project.org/bin/windows/base/release.htm">this .exe file</a>
-	from <a href="http://cran.r-project.org/index.html">CRAN</a>.
-	Also, please install the
-	<a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4>Mac OS X</h4>
-      <p>
-	Install R by downloading and running
-	<a href="http://cran.r-project.org/bin/macosx/R-latest.pkg">this .pkg file</a>
-	from <a href="http://cran.r-project.org/index.html">CRAN</a>.
-	Also, please install the
-	<a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4>Linux</h4>
-      <p>
-	You can download the binary files for your distribution
-	from <a href="http://cran.r-project.org/index.html">CRAN</a>. Or
-	you can use your package manager (e.g. for Debian/Ubuntu
-	run <code>sudo apt-get install r-base</code> and for Fedora run
-        <code>sudo yum install R</code>).  Also, please install the
-	<a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
-      </p>
-    </div>
-  </div>
-</div> <!-- End of 'R' section. -->
 
 <div> <!-- Start of 'SQLite' section. -->
   <h3>SQLite</h3>
